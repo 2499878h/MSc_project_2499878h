@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User behaviour detection</title>
+    <style>
+		    .search_form{
+		        width:100%px;
+		        height:100vh;
+				background-color:#F6F6F6;
+
+		    }
+
+		    .input_text{
+		        width:400px;
+		        height: 40px;
+		        border:1px solid grey;
+		        padding:0px;
+		        text-indent: 10px;
+		        outline: none;
+		        float:center;
+		    }
+
+		    .input_sub{
+		        width:100px;
+		        height: 42px;
+		        background: blue;
+		        border:0px;
+		        float:center;
+		        color:white;
+		        cursor:pointer;
+		    }
+			.box{
+				text-align: center;
+
+			}
+
+		    </style>
+	</head>
+
+	<body style="background-color: rgb(255, 255, 255);">
+		<div class="box">
+			<form class="search_form" action="detection.php" method="post">
+				<input type="text" class="input_text" name="packet" placeholder="Please input the packet.">
+				<input type="submit" value="Detect" class="input_sub">
+			</form>
+		</div>
+	</body>
+</html>

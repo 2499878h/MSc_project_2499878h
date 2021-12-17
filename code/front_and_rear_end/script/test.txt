@@ -1,0 +1,27 @@
+###
+The analysis results of behavior detection model are as follows:
+normal:100.000%
+buffer_overflow:0.000%
+loadmodule:0.000%
+perl:0.000%
+neptune:0.000%
+smurf:0.000%
+guess_passwd:0.000%
+pod:0.000%
+teardrop:0.000%
+portsweep:0.000%
+ipsweep:0.000%
+land:0.000%
+ftp_write:0.000%
+back:0.000%
+imap:0.000%
+satan:0.000%
+phf:0.000%
+nmap:0.000%
+multihop:0.000%
+warezmaster:0.000%
+warezclient:0.000%
+spy:0.000%
+rootkit:0.000%
+###
+The analysis results of the behavior detection model is:normal.

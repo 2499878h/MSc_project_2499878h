@@ -1,0 +1,27 @@
+###
+The analysis results of behavior detection model are as follows:
+normal:0.441%
+buffer_overflow:0.001%
+loadmodule:0.002%
+perl:0.003%
+neptune:99.027%
+smurf:0.481%
+guess_passwd:0.001%
+pod:0.004%
+teardrop:0.005%
+portsweep:0.001%
+ipsweep:0.001%
+land:0.003%
+ftp_write:0.003%
+back:0.011%
+imap:0.002%
+satan:0.001%
+phf:0.003%
+nmap:0.003%
+multihop:0.001%
+warezmaster:0.003%
+warezclient:0.002%
+spy:0.001%
+rootkit:0.002%
+###
+The analysis results of the behavior detection model is:neptune.
